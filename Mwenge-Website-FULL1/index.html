@@ -1,0 +1,501 @@
+﻿<!DOCTYPE html>
+<html lang="sw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mwenge Secondary School - Elimu Bora, Nidhamu</title>
+    <meta name="description" content="Shule ya Upili ya Mwenge - Tunatoa elimu bora kwa nidhamu. Karibu katika safari yetu ya kuelimisha wajibu wa kesho.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Animation -->
+    <div class="loading">
+        <div class="loader"></div>
+        <p style="color: white; margin-top: 20px; font-size: 1.1rem;">Inapakia Tovuti ya Mwenge Secondary School...</p>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo-section">
+                <img src="MWENGE LOGO SMALL SIZE.png" alt="Mwenge Logo" class="logo">
+                <div>
+                    <h1>Mwenge Secondary School</h1>
+                    <p>Kazi • Elimu • Nidhamu</p>
+                </div>
+            </div>
+            <nav class="nav">
+                <a href="#home" class="nav-link active"><i class="fas fa-home"></i> Nyumbani</a>
+                <a href="#about" class="nav-link"><i class="fas fa-info-circle"></i> Kuhusu Sisi</a>
+                <a href="#mission" class="nav-link"><i class="fas fa-bullseye"></i> Dira Yetu</a>
+                <a href="#teachers" class="nav-link"><i class="fas fa-chalkboard-teacher"></i> Walimu</a>
+                <a href="#pmcs" class="nav-link"><i class="fas fa-users"></i> Timu Yetu</a>
+                <a href="#gallery" class="nav-link"><i class="fas fa-images"></i> Picha</a>
+                <a href="#video" class="nav-link"><i class="fas fa-video"></i> Video</a>
+                <a href="#contact" class="nav-link"><i class="fas fa-envelope"></i> Wasiliana</a>
+            </nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="section active hero-section">
+        <div class="hero-content">
+            <div class="container">
+                <h1 class="hero-title animate-pop">Karibu Shule ya Upili ya Mwenge</h1>
+                <p class="hero-subtitle animate-fade-in">Kuunda wajibu wa kesho kwa kufundisha leo</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary animate-slide-up" onclick="scrollToSection('about')">
+                        <i class="fas fa-play-circle"></i> Anza Safari Yetu
+                    </button>
+                    <button class="btn btn-secondary animate-slide-up" onclick="scrollToSection('gallery')">
+                        <i class="fas fa-images"></i> Tazama Picha Za Shule
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="hero-wave">
+            <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M0,0 V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+                <path d="M0,0 V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+                <path d="M0,0 V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Kuhusu Shule Yetu</h2>
+            <div class="about-grid">
+                <div class="about-card animate-on-scroll">
+                    <i class="fas fa-history"></i>
+                    <h3>Historia Yetu</h3>
+                    <p>Shule ya Upili ya Mwenge ilianzishwa mwaka 1985 na kukua kuwa kituo kikuu cha elimu katika mkoa wetu. Tangu wakati huo, tumekuwa tukitoa elimu bora kwa vizazi mbalimbali.</p>
+                </div>
+                <div class="about-card animate-on-scroll">
+                    <i class="fas fa-trophy"></i>
+                    <h3>Mafanikio Yetu</h3>
+                    <p>Tunavyojiweza kwa kiwango cha juu cha kupita mitihani kitaifa. Wanafunzi wetu wameshinda medali katika mashindano ya sayansi, michezo, na sanaa.</p>
+                </div>
+                <div class="about-card animate-on-scroll">
+                    <i class="fas fa-users"></i>
+                    <h3>Jumuiya Yetu</h3>
+                    <p>Shule inayojengeshwa na jumuiya yenye ushirikiano wa karibu na wazazi, wanafunzi, na wadau wote. Tunajenga uhusiano wa karibu na jamii yetu.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission Section -->
+    <section id="mission" class="section mission-section">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Dira na Maono Yetu</h2>
+            <div class="mission-content">
+                <div class="mission-text animate-on-scroll">
+                    <h3><i class="fas fa-eye"></i> Maono Yetu</h3>
+                    <p>Kuwa kituo bora cha elimu katika Tanzania kinachotoa watu wenye weledi wa kiteknolojia na kimaadili, wanaoweza kukabiliana na chango za karne ya ishirini na moja.</p>
+                    
+                    <h3><i class="fas fa-bullseye"></i> Dira Yetu</h3>
+                    <p>Kutoa elimu bora yenye kuwapa wanafunzi uwezo wa kukabiliana na chango za kisasa kwa maarifa, ujuzi, na uadilifu. Tunaima kuwapa wanafunzi wetu silaha za kufanikiwa maishani.</p>
+                    
+                    <h3><i class="fas fa-star"></i> Thamani Zetu</h3>
+                    <ul>
+                        <li><strong>Uadilifu:</strong> Kuwa waaminifu, wenye nidhamu na wenye maadili mema</li>
+                        <li><strong>Ubunifu:</strong> Kufikiria njia mpya za kutatua matatizo na kuleta mabadiliko</li>
+                        <li><strong>Ushirikiano:</strong> Kufanya kazi pamoja kwa malengo ya pamoja na heshima</li>
+                        <li><strong>Bidii:</strong> Kujituma kwa ajili ya mafanikio na kufikia malengo</li>
+                        <li><strong>Upendo:</strong> Kumwonea mwenzako upendo na kumheshimu</li>
+                    </ul>
+                </div>
+                <div class="mission-image animate-on-scroll">
+                    <img src="2.jpg" alt="Mwenge School Campus" class="mission-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Teachers Section -->
+    <section id="teachers" class="section teachers-section">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Timu Yetu ya Walimu</h2>
+            <p class="section-subtitle animate-on-scroll">Wanafunzi wetu hufundishwa na walimu wataalamu wenye ujuzi na uzoefu mwingi</p>
+            
+            <div class="teachers-grid">
+                <div class="teacher-card animate-on-scroll">
+                    <div class="teacher-img">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <h3>Mwalimu Mkuu</h3>
+                    <p>Mwenyekiti wa Uongozi</p>
+                    <p class="teacher-desc">Anaongoza shule kwa ujuzi wa miaka 15 katika uongozi wa kielimu. Amewahi kuongoza mabadiliko makubwa katika shule.</p>
+                </div>
+                <div class="teacher-card animate-on-scroll">
+                    <div class="teacher-img">
+                        <i class="fas fa-science"></i>
+                    </div>
+                    <h3>Walimu wa Sayansi</h3>
+                    <p>Idara ya Sayansi</p>
+                    <p class="teacher-desc">Wanafundisha Fizikia, Kemia, na Biolojia kwa ufanisi mkubwa. Wanawapa wanafunzi uzoefu wa vitendo.</p>
+                </div>
+                <div class="teacher-card animate-on-scroll">
+                    <div class="teacher-img">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <h3>Walimu wa Hisabati</h3>
+                    <p>Idara ya Hisabati</p>
+                    <p class="teacher-desc">Wanakuza akili za kisayansi kwa kufundisha hisabati kwa namna rahisi na inayoeleweka kwa wanafunzi wote.</p>
+                </div>
+                <div class="teacher-card animate-on-scroll">
+                    <div class="teacher-img">
+                        <i class="fas fa-language"></i>
+                    </div>
+                    <h3>Walimu wa Lugha</h3>
+                    <p>Idara ya Lugha</p>
+                    <p class="teacher-desc">Wanaboresha ufasaha wa Kiswahili na Kiingereza kwa wanafunzi. Wanawasaidia kujenga uwezo wa mawasiliano.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PMCs Team Section -->
+    <section id="pmcs" class="section pmcs-section">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Timu ya Watengenezaji wa Tovuti</h2>
+            <p class="section-subtitle animate-on-scroll" style="color: rgba(255,255,255,0.9); text-align: center; margin-bottom: 40px;">Wanafunzi wa Mwenge Secondary School waliojenga tovuti hii kwa bidii na ustadi</p>
+            
+            <div class="pmcs-content animate-on-scroll">
+                <div class="pmcs-card">
+                    <div class="pmcs-img">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h3>Goodluck Robert</h3>
+                    <p>Mhandisi Mkuu wa Tovuti</p>
+                    <p>Mhitimu wa Shule ya Upili ya Mwenge na mwanzilishi wa mradi huu wa tovuti. Ana ujuzi wa kuunda tovuti za kisasa.</p>
+                    <div class="contact-small">
+                        <p><i class="fas fa-envelope"></i> grbt072@gmail.com</p>
+                        <p><i class="fas fa-phone"></i> +255 764 280 221</p>
+                    </div>
+                </div>
+                <div class="pmcs-card">
+                    <div class="pmcs-img">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h3>Chawa Alex</h3>
+                    <p>Mshirika wa Ubunifu</p>
+                    <p>Mshirika wa karibu katika kutengeneza na kuboresha tovuti ya shule yetu. Ana hamu kubwa ya kuhakikisha teknolojia inasaidia elimu.</p>
+                </div>
+            </div>
+            <p class="pmcs-quote animate-on-scroll">"Tunaamini katika nguvu ya teknolojia kubadilisha elimu na kuwapa wanafunzi fursa mpya za kujifunza na kushiriki katika ulimwengu wa kidijitali."</p>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section gallery-section">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Picha za Shule Yetu</h2>
+            <p class="section-subtitle animate-on-scroll">Angalia mazingira mazuri ya kujifunzia na shughuli mbalimbali za shule</p>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item animate-on-scroll">
+                    <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Majengo ya Shule">
+                    <div class="gallery-overlay">
+                        <h3>Majengo Yetu</h3>
+                        <p>Nyumba za kusomea zenye usafi na usalama</p>
+                    </div>
+                </div>
+                <div class="gallery-item animate-on-scroll">
+                    <img src="https://images.unsplash.com/photo-1588072432836-e10032774350?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Maabara ya Sayansi">
+                    <div class="gallery-overlay">
+                        <h3>Maabara ya Sayansi</h3>
+                        <p>Vifaa vya kisasa kwa majaribio ya vitendo</p>
+                    </div>
+                </div>
+                <div class="gallery-item animate-on-scroll">
+                    <img src="https://images.unsplash.com/photo-1546410531-bb4caa6b424d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Maktaba">
+                    <div class="gallery-overlay">
+                        <h3>Maktaba</h3>
+                        <p>Vitabu vingi kwa ajili ya utafiti na kujifunzia</p>
+                    </div>
+                </div>
+                <div class="gallery-item animate-on-scroll">
+                    <img src="https://images.unsplash.com/photo-1541336032412-2048a678540d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Uwanja wa Michezo">
+                    <div class="gallery-overlay">
+                        <h3>Uwanja wa Michezo</h3>
+                        <p>Kuwapa wanafunzi fursa ya mazoezi ya mwili</p>
+                    </div>
+                </div>
+                <div class="gallery-item animate-on-scroll">
+                    <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Darasa la Kisasa">
+                    <div class="gallery-overlay">
+                        <h3>Darasa la Kisasa</h3>
+                        <p>Mazingira mazuri ya kujifunzia</p>
+                    </div>
+                </div>
+                <div class="gallery-item animate-on-scroll">
+                    <img src="https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Shughuli za Jamii">
+                    <div class="gallery-overlay">
+                        <h3>Shughuli za Jamii</h3>
+                        <p>Ushirikiano na jamii ya walio karibu na shule</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section id="video" class="section video-section">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Video ya Mhandisi Wetu</h2>
+            <p class="section-subtitle animate-on-scroll">Maelezo ya moja kwa moja kutoka kwa mhandisi mkuu wa tovuti hii</p>
+            
+            <div class="video-container animate-on-scroll">
+                <div class="video-placeholder">
+                    <div style="text-align: center; color: white;">
+                        <i class="fas fa-video" style="font-size: 4rem; margin-bottom: 20px;"></i>
+                        <h3 style="margin-bottom: 10px;">Video ya Goodluck Robert</h3>
+                        <p>Mhandisi Mkuu wa Tovuti ya Mwenge Secondary School</p>
+                        <p style="margin-top: 20px; font-size: 0.9rem;">
+                            <i class="fas fa-info-circle"></i> 
+                            Video itawekwa hapa inayoonyesha mchango wangu katika uundaji wa tovuti hii
+                        </p>
+                    </div>
+                </div>
+                <div class="video-description">
+                    <h4>Kuhusu Video Hii:</h4>
+                    <p>Katika video hii, ninaelezea:</p>
+                    <ul>
+                        <li>Historia ya jinsi niliamua kuunda tovuti ya shule</li>
+                        <li>Changamoto nilizokabiliana nazi</li>
+                        <li>Fursa za teknolojia katika kuboresha elimu</li>
+                        <li>Maono yangu kwa mustakabali wa shule yetu</li>
+                    </ul>
+                    <p><strong>Simu:</strong> +255 764 280 221 | <strong>Email:</strong> grbt072@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Wasiliana Nasi</h2>
+            <p class="section-subtitle animate-on-scroll">Tupigie simu, tutumie barua pepe au tumia fomu hii kuwasiliana nasi</p>
+            
+            <div class="contact-container animate-on-scroll">
+                <div class="contact-info">
+                    <h3>Maelezo ya Mawasiliano</h3>
+                    <div class="contact-details">
+                        <p><i class="fas fa-map-marker-alt"></i> Anwani: Mwenge Secondary School, Mkoa wa Shule</p>
+                        <p><i class="fas fa-phone"></i> Simu: +255 764 280 221</p>
+                        <p><i class="fas fa-envelope"></i> Barua pepe: grbt072@gmail.com</p>
+                        <p><i class="fas fa-clock"></i> Masaa: Asubuhi 8:00 - Alasiri 4:00</p>
+                        <p><i class="fas fa-calendar"></i> Siku: Jumatatu - Ijumaa</p>
+                    </div>
+                    
+                    <h3>Shiriki Nasi</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contactForm">
+                    <h3>Tuma Ujumbe</h3>
+                    <div class="form-group">
+                        <label for="name">Jina Kamili</label>
+                        <input type="text" id="name" name="name" required placeholder="Andika jina lako kamili">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Barua Pepe</label>
+                        <input type="email" id="email" name="email" required placeholder="barua@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Namba ya Simu</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+255 XXX XXX XXX">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Mada</label>
+                        <input type="text" id="subject" name="subject" required placeholder="Mada ya ujumbe wako">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Ujumbe Wako</label>
+                        <textarea id="message" name="message" required placeholder="Andika ujumbe wako hapa..."></textarea>
+                    </div>
+@'
+                    <button type="submit" class="submit-btn">
+                        <i class="fas fa-paper-plane"></i> Tuma Ujumbe
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Donation Section -->
+    <section id="donation" class="section donation-section">
+        <div class="container">
+            <div class="donation-content animate-on-scroll">
+                <h2 class="section-title">Toa Michango</h2>
+                <p class="section-subtitle">Usaidie kuendeleza na kuboresha elimu katika shule yetu ya Mwenge</p>
+                
+                <div class="donation-info">
+                    <div class="donation-methods">
+                        <h3><i class="fas fa-hand-holding-usd"></i> Njia za Kuchangia</h3>
+                        <div class="method-cards">
+                            <div class="method-card">
+                                <i class="fas fa-mobile-alt"></i>
+                                <h4>M-Pesa</h4>
+                                <p>Namba: <strong>+255 764 280 221</strong></p>
+                                <p>Jina: <strong>Goodluck Robert</strong></p>
+                            </div>
+                            <div class="method-card">
+                                <i class="fas fa-university"></i>
+                                <h4>Benki</h4>
+                                <p>Akaunti: <strong>Mwenge Secondary School</strong></p>
+                                <p>Namba ya Akaunti: <strong>0123456789</strong></p>
+                            </div>
+                            <div class="method-card">
+                                <i class="fas fa-envelope"></i>
+                                <h4>Barua Pepe</h4>
+                                <p>Tuma kwa: <strong>grbt072@gmail.com</strong></p>
+                                <p>Kwa maelekezo zaidi</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="donation-form-container">
+                        <h3><i class="fas fa-comment-dots"></i> Wasiliana Kwa Maelekezo</h3>
+                        <form class="donation-form" id="donationForm">
+                            <div class="form-group">
+                                <label for="donor-name">Jina Lako</label>
+                                <input type="text" id="donor-name" name="donor-name" required placeholder="Jina lako kamili">
+                            </div>
+                            <div class="form-group">
+                                <label for="donor-email">Barua Pepe</label>
+                                <input type="email" id="donor-email" name="donor-email" required placeholder="barua@example.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="donor-phone">Namba ya Simu</label>
+                                <input type="tel" id="donor-phone" name="donor-phone" required placeholder="+255 XXX XXX XXX">
+                            </div>
+                            <div class="form-group">
+                                <label for="donation-amount">Kiasi Unachotaka Kuchangia (TZS)</label>
+                                <input type="number" id="donation-amount" name="donation-amount" placeholder="Mfano: 50000">
+                            </div>
+                            <div class="form-group">
+                                <label for="donation-message">Ujumbe Wako (Hiari)</label>
+                                <textarea id="donation-message" name="donation-message" placeholder="Andika ujumbe wako hapa..."></textarea>
+                            </div>
+                            <button type="submit" class="submit-btn">
+                                <i class="fas fa-hand-holding-heart"></i> Tuma Ombi la Maelekezo
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                
+                <div class="donation-impact">
+                    <h3><i class="fas fa-chart-line"></i> Athari za Michango Yako</h3>
+                    <div class="impact-grid">
+                        <div class="impact-item">
+                            <i class="fas fa-book"></i>
+                            <h4>Vitabu</h4>
+                            <p>Kununua vitabu vipya vya kiada</p>
+                        </div>
+                        <div class="impact-item">
+                            <i class="fas fa-flask"></i>
+                            <h4>Vifaa vya Maabara</h4>
+                            <p>Kuboresha vifaa vya majaribio</p>
+                        </div>
+                        <div class="impact-item">
+                            <i class="fas fa-laptop"></i>
+                            <h4>Teknolojia</h4>
+                            <p>Kununua kompyuta na vifaa vya kisasa</p>
+                        </div>
+                        <div class="impact-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <h4>Masomo ya Ziada</h4>
+                            <p>Kuwapa wanafunzi masomo ya nyongeza</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Mwenge Secondary School</h3>
+                    <p>Shule inayojenga wajibu wa kesho kwa kutoa elimu bora na yenye nidhamu.</p>
+                    <div class="school-info">
+                        <p><i class="fas fa-map-marker-alt"></i> Mwenge, Dar es Salaam, Tanzania</p>
+                        <p><i class="fas fa-phone"></i> +255 764 280 221</p>
+                        <p><i class="fas fa-envelope"></i> grbt072@gmail.com</p>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Kurasa Muhimu</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home"><i class="fas fa-chevron-right"></i> Nyumbani</a></li>
+                        <li><a href="#about"><i class="fas fa-chevron-right"></i> Kuhusu Sisi</a></li>
+                        <li><a href="#teachers"><i class="fas fa-chevron-right"></i> Walimu</a></li>
+                        <li><a href="#gallery"><i class="fas fa-chevron-right"></i> Picha</a></li>
+                        <li><a href="#contact"><i class="fas fa-chevron-right"></i> Wasiliana</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Huduma Zetu</h3>
+                    <ul class="footer-links">
+                        <li><a href="#mission"><i class="fas fa-chevron-right"></i> Elimu ya Msingi</a></li>
+                        <li><a href="#mission"><i class="fas fa-chevron-right"></i> Elimu ya Sekondari</a></li>
+                        <li><a href="#mission"><i class="fas fa-chevron-right"></i> Mafunzo ya Ziada</a></li>
+                        <li><a href="#mission"><i class="fas fa-chevron-right"></i> Michezo na Sanaa</a></li>
+                        <li><a href="#mission"><i class="fas fa-chevron-right"></i> Usaidizi wa Kitaaluma</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Shiriki Nasi</h3>
+                    <p>Fuata shughuli zetu na ushiriki katika mabadiliko ya elimu.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                    
+                    <div class="newsletter">
+                        <h4>Andikisha kwa Taarifa</h4>
+                        <form class="newsletter-form">
+                            <input type="email" placeholder="Barua pepe yako" required>
+                            <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2025 Mwenge Secondary School. Haki zote zimehifadhiwa.</p>
+                    <p>Imetengenezwa kwa ❤️ na <strong>Goodluck Robert</strong> & <strong>Chawa Alex</strong> - Wanafunzi wa Mwenge Secondary School (PMCs Team)</p>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-phone"></i> +255 764 280 221 | <i class="fas fa-envelope"></i> grbt072@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
